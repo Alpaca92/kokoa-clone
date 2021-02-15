@@ -1,5 +1,5 @@
 .welcome-header {
-  margin: 90px 0;
+  padding: 90px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@
 }
 
 #login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--gray-color);
 }
 
 #login-form input:focus {
